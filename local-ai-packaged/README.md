@@ -1,12 +1,14 @@
-# Self-hosted AI starter kit
+# Self-hosted AI starter kit (by the n8n team)
 
 **Self-hosted AI Starter Kit** is an open, docker compose template that
 quickly bootstraps a fully featured Local AI and Low Code development
 environment including Open WebUI for an interface to chat with your N8N agents. 
 
-This is Cole's version with a couple of improvements and the addition of Open WebUI! 
+This is Cole's version with a couple of improvements and the addition of Open WebUI and Flowise! 
 Also, the local RAG AI Agent workflow from the video will be automatically in your 
 n8n instance if you use this setup instead of the base one provided by n8n!
+
+[Original Local AI Starter Kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
 
 Download my N8N + OpenWebUI integration [directly on the Open WebUI site.](https://openwebui.com/f/coleam/n8n_pipe/) (more instructions below)
 
@@ -15,9 +17,6 @@ Download my N8N + OpenWebUI integration [directly on the Open WebUI site.](https
 Curated by <https://github.com/n8n-io> and <https://github.com/coleam00>, it combines the self-hosted n8n
 platform with a curated list of compatible AI products and components to
 quickly get started with building self-hosted AI workflows.
-
-> [!TIP]
-> [Read the announcement](https://blog.n8n.io/self-hosted-ai/)
 
 ### What’s included
 
@@ -30,21 +29,14 @@ and run the latest local LLMs
 ✅ [**Open WebUI**](https://openwebui.com/) - ChatGPT-like interface to
 privately interact with your local models and N8N agents
 
+✅ [**Flowise**](https://flowiseai.com/) - No/low code AI agent
+builder that pairs very well with n8n
+
 ✅ [**Qdrant**](https://qdrant.tech/) - Open-source, high performance vector
 store with an comprehensive API
 
 ✅ [**PostgreSQL**](https://www.postgresql.org/) -  Workhorse of the Data
 Engineering world, handles large amounts of data safely.
-
-### What you can build
-
-⭐️ AI Agents which can schedule appointments
-
-⭐️ Summarise company PDFs without leaking data
-
-⭐️ Smarter slack bots for company comms and IT-ops
-
-⭐️ Analyse financial documents privately and for little cost
 
 ## Installation
 
@@ -184,7 +176,7 @@ and nodes. If you run into an issue, go to [support](#support).
 
 ## 🎥 Video walkthrough
 
-- [Installing and using Local AI for n8n](https://www.youtube.com/watch?v=xz_X2N-hPg0)
+- [Cole's Guide to the Local AI Starter Kit](https://youtu.be/V_0dNE-H2gw)
 
 ## 🛍️ More AI templates
 
@@ -227,17 +219,5 @@ interact with the local filesystem.
 
 ## 📜 License
 
-This project is licensed under the Apache License 2.0 - see the
+This project (originally created by the n8n team, link at the top of the README) is licensed under the Apache License 2.0 - see the
 [LICENSE](LICENSE) file for details.
-
-## 💬 Support
-
-Join the conversation in the [n8n Forum](https://community.n8n.io/), where you
-can:
-
-- **Share Your Work**: Show off what you’ve built with n8n and inspire others
-  in the community.
-- **Ask Questions**: Whether you’re just getting started or you’re a seasoned
-  pro, the community and our team are ready to support with any challenges.
-- **Propose Ideas**: Have an idea for a feature or improvement? Let us know!
-  We’re always eager to hear what you’d like to see next.
